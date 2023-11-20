@@ -1,0 +1,92 @@
+body{
+  background-color: #bdedf3;
+}
+.App {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  /* src/UserList.css */
+  .user-list-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .user-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    --shadowColor: 187 60% 40%;
+	display: flex;
+	flex-wrap: wrap;
+	background: hsl(187 70% 85%);
+	max-width: 400rem;
+	width: 100%;
+	box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);
+	border-radius: 0.8rem;
+	overflow: hidden;
+
+  }
+  
+  .user-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: hsl(205, 100%, 96%); /* Background color for the card */
+    color: #fff; /* Text color for the card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-card:hover {
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  h1 {
+    color: #666;
+    font-size: 50px;
+    line-height: 1.5;
+
+  }
+  h3 {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  h4 {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
+  
